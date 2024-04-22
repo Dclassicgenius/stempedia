@@ -3,22 +3,23 @@ import Link from "next/link";
 
 const news = [
   {
-    title: "Quam vulputate n est ante in nibh mauris.",
+    title:
+      "From Ideas to Opportunities: How AI is Transforming Education and Unlocking the Potential of Children.",
     description:
-      "Integer feugiat scelerisque varius morbi enim nunc faucibus a. Iaculis eu non diam phasellus. Scelerisque eleifend donec pretium vulputate sapien. Mauris a diam maecenas sed enim ut. Est placerat in egestas erat imperdiet.",
-    image: "/ai.png",
+      "AI in education is transforming how children learn by providing customized and interactive experiences that cater to individual learning styles. This technological advancement is unlocking children's potential by making education more accessible, engaging, and effective.",
+    image: "/news1.jpeg",
   },
   {
-    title: "Viverra accumsan eu ultrices vitae auctor.",
+    title: "The Potential Advantages of Artificial Intelligence for Learners.",
     description:
-      "Odio aenean sed adipiscing diam donec. Dictum fusce ut placerat orci. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Quam vulputate dignissim suspendisse in est ante in nibh mauris. Volutpat ac tincidunt vitae semper quis lectus. ",
-    image: "/ai.png",
+      "Artificial Intelligence offers significant potential benefits for students by enhancing educational tools with personalized learning algorithms and real-time feedback. This technology promises to improve understanding, retention, and academic success by adapting to individual learning paces and preferences.",
+    image: "/news2.jpeg",
   },
   {
-    title: "Velit euismod in duis ultricies lacus.",
+    title: "StemPedia Gains Increased Public Attention.",
     description:
-      "Nunc vel risus commodo viverra maecenas accumsan lacus. Nec nam aliquam sem et. Gravida neque convallis a cras. Id consectetur purus ut faucibus pulvinar elementum integer. Vitae justo eget magna fermentum iaculis eu non diam.",
-    image: "/ai.png",
+      "StemPedia, a platform dedicated to enhancing STEM education, is receiving increased public attention for its innovative learning tools and resources. This surge in visibility highlights its role in empowering students with critical thinking and problem-solving skills essential for future careers.",
+    image: "/news3.jpeg",
   },
 ];
 
@@ -56,7 +57,7 @@ const NewsCard = ({ title, description, image }: NewCardProps) => {
         alt="news"
         width={200}
         height={200}
-        className="rounded-xl "
+        className="rounded-xl object-cover h-full"
       />
       <div className="flex flex-col justify-center gap-4">
         <h2 className="text-2xl font-bold">{title}</h2>

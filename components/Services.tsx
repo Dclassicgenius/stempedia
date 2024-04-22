@@ -7,10 +7,9 @@ const services = [
   { title: "Infographics", description: "", image: "/stem-4.jpeg" },
   { title: "Simulations", description: "", image: "/stem-2.png" },
   { title: "Games", description: "", image: "/video-game.svg" },
-  { title: "Resources", description: "", image: "/stem-3.jpeg" },
-  { title: "Practice", description: "", image: "/stem-4.jpeg" },
-
-  { title: "Blog", description: "", image: "/stem-2.png" },
+  { title: "Written Guides", description: "", image: "/stem-3.jpeg" },
+  { title: "Practice", description: "", image: "/practice.jpeg" },
+  { title: "Blog", description: "", image: "/blog.jpeg" },
 ];
 const Services = () => {
   return (
